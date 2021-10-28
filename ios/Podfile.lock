@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - pay_ios (0.0.1):
+    - Flutter
+  - Stripe (21.8.1):
+    - Stripe/Stripe3DS2 (= 21.8.1)
+    - StripeCore (= 21.8.1)
+  - Stripe/Stripe3DS2 (21.8.1):
+    - StripeCore (= 21.8.1)
+  - stripe_ios (0.0.1):
+    - Flutter
+    - Stripe (~> 21.8.1)
+  - StripeCore (21.8.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - pay_ios (from `.symlinks/plugins/pay_ios/ios`)
+  - stripe_ios (from `.symlinks/plugins/stripe_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Stripe
+    - StripeCore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  pay_ios:
+    :path: ".symlinks/plugins/pay_ios/ios"
+  stripe_ios:
+    :path: ".symlinks/plugins/stripe_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  pay_ios: 8c7beb9c61d885f3f51b61f75f8793023fc8843a
+  Stripe: 57c6997c64042a3f5aedae9b76e331942f8b75d2
+  stripe_ios: a47cfc31126ca3f0c47a9c60c0bd4be110d14aea
+  StripeCore: a6e50d58119a0c7601773b56f274db2d394dcdac
+
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+
+COCOAPODS: 1.10.1
